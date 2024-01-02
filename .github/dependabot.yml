@@ -13,3 +13,12 @@ updates:
     directory: "/ruby"
     schedule:
       interval: "weekly"
+  - package-ecosystem: docker
+    directory: "/docker"
+    schedule:
+      interval: "daily"
+      time: "03:23"
+      timezone: America/Los_Angeles
+    pull-request-branch-name:
+      separator: "-"
+    open-pull-requests-limit: 2
