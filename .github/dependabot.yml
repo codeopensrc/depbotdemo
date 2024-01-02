@@ -17,7 +17,7 @@ updates:
     directory: "/docker"
     schedule:
       interval: "daily"
-      time: "03:18"
+      time: "03:27"
       timezone: America/Los_Angeles
     pull-request-branch-name:
       separator: "-"
