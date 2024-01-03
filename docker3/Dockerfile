@@ -1,4 +1,4 @@
-FROM python:3.12.0
+FROM python:3.12.1
 LABEL org.opencontainers.image.source="https://github.com/docker-library/python"
 RUN apk update && \
     apk upgrade && \
