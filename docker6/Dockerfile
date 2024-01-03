@@ -1,4 +1,4 @@
-FROM nginx/nginx-ingress:3.3.1-alpine
+FROM nginx/nginx-ingress:3.4.0-alpine
 LABEL org.opencontainers.image.source="https://github.com/kubernetes/ingress-nginx"
 RUN apk update && \
     apk upgrade && \
