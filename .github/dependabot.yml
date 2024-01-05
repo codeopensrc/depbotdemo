@@ -5,14 +5,20 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    commit-message:
+      prefix: "[bot] actions"
   - package-ecosystem: npm
     directory: "/javascript"
     schedule:
       interval: "weekly"
+    commit-message:
+      prefix: "[bot] javascript"
   - package-ecosystem: bundler
     directory: "/ruby"
     schedule:
       interval: "weekly"
+    commit-message:
+      prefix: "[bot] ruby"
   - package-ecosystem: docker
     directory: "/docker"
     schedule:
@@ -22,6 +28,8 @@ updates:
     pull-request-branch-name:
       separator: "-"
     open-pull-requests-limit: 2
+    commit-message:
+      prefix: "[bot] docker"
   ## python dir
   - package-ecosystem: docker
     directory: "/python"
@@ -32,6 +40,8 @@ updates:
     pull-request-branch-name:
       separator: "-"
     open-pull-requests-limit: 2
+    commit-message:
+      prefix: "[bot] docker"
   - package-ecosystem: pip
     directory: "/python"
     schedule:
@@ -41,6 +51,8 @@ updates:
     pull-request-branch-name:
       separator: "-"
     open-pull-requests-limit: 2
+    commit-message:
+      prefix: "[bot] pip"
   ## python2 dir
   - package-ecosystem: docker
     directory: "/python2"
@@ -51,6 +63,8 @@ updates:
     pull-request-branch-name:
       separator: "-"
     open-pull-requests-limit: 2
+    commit-message:
+      prefix: "[bot] docker"
   - package-ecosystem: pip
     directory: "/python2"
     schedule:
@@ -60,6 +74,8 @@ updates:
     pull-request-branch-name:
       separator: "-"
     open-pull-requests-limit: 2
+    commit-message:
+      prefix: "[bot] python"
   - package-ecosystem: pip
     directory: "/python3"
     schedule:
@@ -76,6 +92,8 @@ updates:
     pull-request-branch-name:
       separator: "-"
     open-pull-requests-limit: 2
+    commit-message:
+      prefix: "[bot] python"
   - package-ecosystem: pip
     directory: "/python4"
     schedule:
@@ -93,3 +111,5 @@ updates:
     pull-request-branch-name:
       separator: "-"
     open-pull-requests-limit: 2
+    commit-message:
+      prefix: "[bot] python"
